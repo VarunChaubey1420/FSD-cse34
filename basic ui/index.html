@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <caption>Book Store</caption>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Book Name</th>
+                    <th>Price</th>
+                    <th>Purchase Option</th>
+                    <th>Quantity</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-price="2911">
+                    <td>1.</td>
+                    <td>Harry Potter: The Complete Collection</td>
+                    <td>₹2,911</td>
+                    <td>
+                        <input type="checkbox" class="purchase">
+                    </td>
+                    <td>
+                        <input type="number" class="quantity" min="1" max="5" value="0" disabled>
+                    </td>
+                    <td class="value">—</td>
+                </tr>
+                <tr data-price="350">
+                    <td>2.</td>
+                    <td>The Monk Who Sold His Ferrari</td>
+                    <td>₹350</td>
+                    <td>
+                        <input type="checkbox" class="purchase">
+                    </td>
+                    <td>
+                        <input type="number" class="quantity" min="1" max="5" value="0" disabled>
+                    </td>
+                    <td class="value">—</td>
+                </tr>
+                <tr data-price="345">
+                    <td>3.</td>
+                    <td>A Good Girl's Guide to Murder</td>
+                    <td>₹345</td>
+                    <td>
+                        <input type="checkbox" class="purchase">
+                    </td>
+                    <td>
+                        <input type="number" class="quantity" min="1" max="5" value="0" disabled>
+                    </td>
+                    <td class="value">—</td>
+                </tr>
+                <tr data-price="299">
+                    <td>4.</td>
+                    <td>Rich Dad Poor Dad</td>
+                    <td>₹299</td>
+                    <td>
+                        <input type="checkbox" class="purchase">
+                    </td>
+                    <td>
+                        <input type="number" class="quantity" min="1" max="5" value="0" disabled>
+                    </td>
+                    <td class="value">—</td>
+                </tr>
+                <tr data-price="159">
+                    <td>5.</td>
+                    <td>Solo Leveling, Vol. 1</td>
+                    <td>₹159</td>
+                    <td>
+                        <input type="checkbox" class="purchase">
+                    </td>
+                    <td>
+                       <input type="number" class="quantity" min="1" max="5" value="0" disabled>
+                    </td>
+                    <td class="value">—</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" class="total-label">
+                        Total Value
+                    </td>
+                    <td id="totalValue">
+                        ₹0
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

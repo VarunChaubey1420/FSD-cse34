@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    border:1px solid black;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.item1{
+    background: linear-gradient(to top, green, yellow);
+}
+.item2{
+    background: linear-gradient(to right, green, yellow);
+}
+.item3{
+    background: linear-gradient(to left, green, yellow);
+}
+.item4{
+    background: linear-gradient(to bottom, green, yellow);
+}
