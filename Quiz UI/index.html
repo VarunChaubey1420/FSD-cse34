@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <h2>Quiz Portal</h2>
+            <p id="subjectName">Select Subject</p>
+        </div>
+        <div class="date-time">
+            <div id="date">Loading...</div>
+            <div id="time">00:00:00</div>
+        </div>
+        <div class="timer">
+            <small>Time Left</small>
+            <h2 id="countdown">15:00</h2>
+        </div>
+    </header>
+
+    <section id="startScreen" class="screen">
+        <h1>Online Quiz</h1>
+        <select id="subjectSelect">
+            <option value="">Choose Subject</option>
+            <option value="os">Operating System</option>
+            <option value="cn">Computer Networks</option>
+            <option value="dbms">DBMS</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select>
+        <button id="startBtn">Start Quiz</button>
+    </section>
+
+    <section id="quizScreen" class="screen hidden">
+        <div class="progress">
+            <span id="questionNumber">Question 1 / 10</span>
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+        </div>
+        <div class="question-card">
+            <h2 id="questionText">
+                Question will appear here
+            </h2>
+            <div id="optionsContainer"></div>
+        </div>
+        <button id="nextBtn" disabled>
+            Next →
+        </button>
+    </section>
+
+    <section id="resultScreen" class="screen hidden">
+        <h1>Quiz Completed 🎉</h1>
+        <h2 id="finalScore">0 / 10</h2>
+        <p id="percentage">0%</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

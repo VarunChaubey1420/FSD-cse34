@@ -7,14 +7,14 @@
 }
 
 .item1{
-    background: linear-gradient(to top, green, yellow);
+    background: linear-gradient(from right bottom to top left, blue, red);
 }
 .item2{
-    background: linear-gradient(to right, green, yellow);
+    background: linear-gradient(to right, blue, red);
 }
 .item3{
-    background: linear-gradient(to left, green, yellow);
+    background: linear-gradient(to left, blue, red);
 }
 .item4{
-    background: linear-gradient(to bottom, green, yellow);
+    background: linear-gradient(to bottom, blue, red);
 }
