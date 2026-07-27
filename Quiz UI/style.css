@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#071330;
+    color:white;
+    min-height:100vh;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#102a72;
+    border-bottom:3px solid gold;
+}
+
+.logo h2{
+    color:gold;
+}
+
+.logo p{
+    margin-top:5px;
+    color:#ddd;
+}
+
+.date-time{
+    text-align:center;
+    font-size:17px;
+}
+
+#time{
+    font-size:28px;
+    font-weight:600;
+    margin-top:5px;
+}
+
+.timer{
+    text-align:right;
+}
+
+.timer small{
+    color:#ddd;
+}
+
+#countdown{
+    color:gold;
+    font-size:36px;
+    margin-top:4px;
+}
+
+.screen{
+    width:90%;
+    max-width:900px;
+    margin:45px auto;
+    text-align:center;
+}
+
+.hidden{
+    display:none;
+}
+
+#startScreen h1{
+    font-size:46px;
+    margin-bottom:40px;
+}
+
+select{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+button{
+    padding:15px 45px;
+    border:none;
+    border-radius:12px;
+    background:gold;
+    color:#071330;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    transition:.25s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+button:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+    transform:none;
+}
+
+.progress{
+    margin-bottom:35px;
+}
+
+#questionNumber{
+    display:block;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+.progress-bar{
+    width:100%;
+    height:12px;
+    background:#1d3c91;
+    border-radius:30px;
+    overflow:hidden;
+}
+
+#progressFill{
+    width:10%;
+    height:100%;
+    background:gold;
+    transition:.4s;
+}
+
+.question-card{
+    background:white;
+    color:#111;
+    padding:40px;
+    border-radius:20px;
+    text-align:left;
+    box-shadow:0 0 35px rgba(0,0,0,.35);
+}
+
+.question-card h2{
+    margin-bottom:35px;
+    text-align:center;
+}
+
+.option{
+    background:#eef3ff;
+    margin:16px 0;
+    padding:18px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.25s;
+    border:2px solid transparent;
+    font-size:18px;
+}
+
+.option:hover{
+    background:#d8e5ff;
+}
+
+.option.selected{
+    border-color:royalblue;
+    background:#bcd4ff;
+}
+
+#nextBtn{
+    margin-top:35px;
+}
+
+#resultScreen h1{
+    font-size:50px;
+    color:gold;
+}
+
+#finalScore{
+    font-size:80px;
+    margin:25px 0;
+}
+
+#percentage{
+    font-size:40px;
+}
