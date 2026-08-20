@@ -104,3 +104,57 @@
 //   c = d;
 // }
 
+// let x = 4,
+//   y = 0,
+//   z;
+// while (x >= 0) {
+//   x--;
+//   y++;
+//   if (x == y) {
+//     break;
+//   } else {
+//     console.log(x, y);
+//   }
+// }
+
+// let x = 4,
+//   y = 0,
+//   z;
+// while (x >= 0) {
+//   x--;
+//   y++;
+//   if (x == y) {
+//     continue;
+//   } else {
+//     console.log(x, y);
+//   }
+// }
+// let x = (10, 10+30);
+// console.log(x);
+// let i,j;
+// let a=[1,2,3,4,5];
+// for(i = 0,j=a.length-1;i<j;i++,j--){
+//     let x=a[i];
+//     a[i]=a[j];
+//     a[j]=x;
+// }
+// console.log(a);
+// if(true){
+//     var x = "CSE";
+//     console.log(x);
+// }
+// console.log(x);
+// console.log(x);
+// var x = 3.4;
+// let name = 'java';
+// function example(){    
+//     console.log(name);
+// }
+// if (true) {
+//   console.log(name);
+// }
+
+// console.log(name);
+// example();
+
+//hoisting
