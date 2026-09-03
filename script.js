@@ -147,7 +147,7 @@
 // console.log(x);
 // var x = 3.4;
 // let name = 'java';
-// function example(){    
+// function example(){
 //     console.log(name);
 // }
 // if (true) {
@@ -158,3 +158,46 @@
 // example();
 
 //hoisting
+// console.log(two(5));
+// const two = function(n){
+//     return(n+2);
+// }
+// setTimeout(function(){console.log('CSE - 34');},3000)
+// (function one(){console.log('hello');})();
+// (function (){console.log('database');})();
+// const Person = {
+//     name : 'Arvind',
+//     age : 40,
+//     greet : function(){console.log(`${Person.name} ${Person.age}`);}
+// }
+
+// Person.greet();
+
+// const Person = {
+//   name: "Arvind",
+//   age: 40,
+//   greet: function () {
+//     console.log(this);
+//   },
+// };
+
+// Person.greet();
+// Person.name = 'Aneet';
+// Person.age = 30;
+// Person.greet();
+
+// function show(){
+//   console.log(this);
+// }
+// show();
+
+// const Person = {
+//   name: "abc",
+//   greet: function () {
+//     return this;
+//   },
+// };
+
+// console.log(Person.greet());
+// console.log(this);
+
