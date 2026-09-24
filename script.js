@@ -201,3 +201,130 @@
 // console.log(Person.greet());
 // console.log(this);
 
+// function display(a,b){
+//     return a+b;
+// }
+
+// console.log(display());
+// console.log(display(10,'a'));
+// console.log(display(10,null));
+
+// function dis(msg){
+//     console.log('Hello', msg);
+//     console.log("Hello", { msg });
+//     console.log(`Hello ${ msg }`);
+// }
+// dis('world');
+
+// function loggedin(user){
+//     if(user==undefined){
+//         return 'provide argument'
+//     }
+//     return `${user} loggedIn!`;
+// }
+
+// function loggedin(user) {
+//   return user == undefined ? "provide argument" : `${user} loggedIn!`;
+// }
+
+// console.log(loggedin());
+// console.log(loggedin('varun'));
+
+// function req(){
+//     throw new Error('Pass Argument');
+// }
+
+// function display(a=req(),b=req()){
+//     console.log(a + b);
+// }
+// display();
+
+// function test(){
+//     return new Date();
+// }
+// function date(msg, x = test()) {
+//   console.log(x.toLocaleDateString(msg));
+// }
+
+// date("en-US");
+// date("en-In");
+
+// function calculate(a, b, operation) {
+//   return operation(a, b);
+// }
+
+// const add = function (a, b) {
+//   return a + b;
+// };
+
+// const subtract = function (a, b) {
+//   return a - b;
+// };
+
+// const multiply = function (a, b) {
+//   return a * b;
+// };
+
+// const divide = function (a, b) {
+//   if(b==0){
+//     return "not divisible";
+//   }
+//   return a / b;
+// };
+
+// let a = 10;
+// let b = 5;
+
+// console.log(calculate(10,2,add));
+
+// let multiply = (
+//   x,
+//   y
+// )=>
+//   x*y;
+
+// let calculate = (a, b, operation) => {
+//   return operation(a, b);
+// }
+
+// const add = (a, b) =>{
+//   return a + b;
+// };
+
+// const subtract = (a, b) =>{
+//   return a - b;
+// };
+
+// const multiply = (a, b) =>{
+//   return a * b;
+// };
+
+// const divide = (a, b) =>{
+//   if(b==0){
+//     return "not divisible";
+//   }
+//   return a / b;
+// };
+
+// let a = 10;
+// let b = 5;
+
+// console.log(calculate(10,2,add));
+// console.log(calculate(18, 9, subtract));
+
+// let arr = [10, 15, 22, 33, 40, 51, 64];
+
+// let isEven = (num) => num % 2 === 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (isEven(arr[i])) {
+//     console.log(arr[i]);
+//   }
+// }
+
+// for (let num of arr) {
+//   if (isEven(num)) {
+//     console.log(num);
+//   }
+// }
+
